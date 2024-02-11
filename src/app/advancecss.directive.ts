@@ -11,9 +11,11 @@
   
       @HostListener('mouseover') onMouseOver(){
           this.eleRef.nativeElement.style.backgroundColor='pink'
+          this.eleRef.nativeElement.style.padding='10px'
       }
       @HostListener('mouseout') onMouseOut(){
           this.eleRef.nativeElement.style.backgroundColor='greenyellow'
+          this.eleRef.nativeElement.style.padding='10px'
 }
   }
 
